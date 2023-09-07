@@ -15,7 +15,7 @@ def get(request):
             "current_day": datetime.now().strftime("%A"),
             "utc_time": utc_time,
             "track": track,
-            "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
+            "github_file_url": "https://github.com/samuelngundi-02/HNGX_backend/blob/main/myproject/api/views.py",
             "github_repo_url": "https://github.com/samuelngundi-02/HNGX_backend",
             "status_code": 200,
         }
