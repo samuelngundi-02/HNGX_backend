@@ -4,8 +4,8 @@ from datetime import datetime
 import pytz
 
 def get(request):
-        slack_name = request.GET.get("slack_name", "")
-        track = request.GET.get("track", "")
+        slack_name = request.GET.get("slack_name", "Samuel Ngundi")
+        track = request.GET.get("track", "backend")
         
         # Get current UTC time
         utc_time = datetime.now(pytz.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
